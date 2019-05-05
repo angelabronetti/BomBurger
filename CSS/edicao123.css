@@ -1,0 +1,579 @@
+/*bodys*/
+
+#pglanc{
+	background-image: url('../IMG/HUM1.jpg');
+}
+
+body{
+	background-color: ;
+}
+.conc{
+	position: absolute;
+	left: 300px;
+}
+.infr{
+	position: absolute;
+	top: 340px;
+	right: 350px;
+}
+
+.menu{
+	position: absolute;
+	left:470px;
+	top:140px;
+
+}
+
+
+.menu ul li{
+	
+	float: left;
+	width: 100px;
+	height: 25px;
+	display: inline-block;
+	text-align: center;
+	line-height: 25px;
+	font-size: 18px;
+	position: relative;
+	border-radius: 5px;
+	z-index: 1;
+	}
+
+.menu ul li:hover{
+	border-bottom: 2px solid white;
+	text-decoration: underline;
+	background-color: black;	
+}
+
+
+.menu ul ul{
+	display: none;
+	margin-left: -30px;
+}
+
+.menu ul li ul li li{
+	text-align: left;
+	line-height: 25px;
+	font-size: 12px;
+}
+
+.menu ul li:hover > ul{
+	display:block;
+	background-color: black;
+}
+
+.menu ul ul ul{
+	margin-left: 60px;
+	top: 0px;
+	position: absolute;
+	
+}
+
+.menu ul ul li:hover{
+	
+	
+}
+
+.menu ul ul ul li:hover{
+	
+}
+.menu a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+
+}
+.menu ul ul ul{
+	position: absolute;
+	left:0px;
+}
+
+/*fromatação do campo do slide shows*/
+
+#slide ul  {
+
+	width: 1000px;
+	height: 900px;
+	border-radius: 150px;
+	margin: 0 auto;	
+	overflow: hidden;
+	position: absolute;
+	right: 170px;
+	top: 500px;
+
+}
+/* Início da edição do 	Login */
+
+#back{
+	width: auto;
+	height:auto;
+}
+
+
+
+#lgn{
+	background-color:rgba(201,204,198) ;
+	height: 650px;
+	width:250px;
+	z-index: 5px;
+	border: 5px solid white;
+	margin-left: 10px;
+	margin-top: 20px;
+	
+}
+
+#logon{
+	margin-top: 200px;
+	margin-left: 20px;
+}
+
+
+ /* Término da Edição do Login */
+ 
+ 
+ /* Aqui começa a edição do segundo formulário */
+ 
+ #for2{
+	 margin-left: 290px;
+	 margin-top: -659px;	
+	/* border: 5px solid pink; */
+	 z-index: 5px;
+	 position: absolute;
+ }
+ 
+ #cc{
+	 width: 990px;
+	 
+	 height: 300px;
+ }
+ 
+ /* Edição da Label Nome */
+ 
+ #iNome{
+	
+ }
+ 
+ /* Edição da Data de Nascimento */
+ #dt{
+	margin-left: 300px; 
+	margin-top: -20px;
+}
+  
+ #iDia{
+	 width: 50px;
+	 margin-left: 75px;
+ }
+ 
+ #iMes{
+	 width: 50px;
+ }
+ 
+ #iAno{
+	 width: 50px;
+ }
+ 
+ /* Fim da Edição da Data de Nascimento */
+ 
+ /* Incício da Edição do Gênero e input */
+ 
+ #sex{
+	margin-left: 125px;
+ }
+ 
+ #tipo{
+	 margin-left: 90px;
+ }
+ 
+ #tipoo{
+	margin-left: 25px;
+ }
+ 
+/* Fim da edição de gênero e input */
+
+/* Início da Edição de E-mail */
+
+#ce{
+	margin-left: 85px;
+}
+
+#iEmail{
+	width: 250px;
+}
+
+#iEmaail{
+	width: 250px;
+}
+ 
+ /* Fim da edição de e-mail */
+ 
+ /* Início da edição do campo senha */
+ 
+ 
+ #ss{
+	 margin-left: 134px;
+ }
+ 
+ #iSen{
+	 width: 150px;
+ }
+ 
+ #iSeen{
+	 width: 150px;
+	margin-left: 7px;
+ }
+ 
+ /* Fim da edição do campo senha */
+ 
+ /* Início da edição do campo endereço */
+ 
+ #en{
+	 margin-left: 180px;
+ }
+  
+ #ccc{
+	margin-left: 150px;
+ }
+ 
+#iBai{
+	width: 170px;
+}
+ 
+#ci{
+	margin-left: 175px;
+}
+ 
+#iCid{
+	width: 200px;
+}
+
+ 
+#iCep{
+	width: 180px;
+}
+ 
+#est{
+	margin-left: 100px;
+}
+ 
+ /* Fim da edição do Campo endereço */
+ 
+ /* Início da edição do campo cartão */
+ 
+ #cartao{
+	 margin-left: 200px;
+ }
+ 
+ #ibandeira{
+	 margin-left: 300px;
+ }
+ 
+ #nc{
+	 margin-left: 230px;
+ }
+ 
+ #iNom{
+	 width: 200px;
+ }
+  /* Fim da edição do campo Cartão */
+ 
+#imgs{
+	 width: 400px;
+	 height: 220px;
+	 position: absolute;
+	 border: 2px solid green;
+ }
+ 
+ #slide ul li{
+	list-style: none;	
+ }
+ 
+div.pics { display: flex; }
+
+div.pics img { 
+    height: 200px; 
+    width: 300px; 
+    overflow:hidden;
+} 
+ 
+
+ /*-------------------------------- campo de div -----------------------*/
+
+#campodedivs{
+	position: absolute;
+	padding-top: 200px;
+}
+
+/*--------------------------------- combos so com bebida ----------------------------*/
+body {
+
+	background-image: url('../IMG/HUM4.jpg');
+	background-repeat: no-repeat;
+	background-size: 300vh;		
+}
+#combo1{
+	position: absolute;
+	top: 300px;
+	left: 200px;
+	color: white;
+	text-align: center;
+	border:groove #d18e23 5px;
+	height: 320px;
+
+
+} 
+#IMGCI1{
+	width: 170px;
+	height: 100px;
+}
+#comb1{
+	position: absolute;
+	top: 300px;
+	left: 250px;
+	color: black;
+	text-align: center;
+	border:groove #d18e23 5px;
+	height: 370px;
+
+
+}
+#comb2{
+	position: absolute;
+	top: 300px;
+	left: 550px;
+	color: black;
+	text-align: center;
+	border:groove #d18e23 5px;
+	height: 370px;
+
+}
+#comb3{
+	position: absolute;
+	top: 300px;
+	left: 850px;
+	color: black;
+	text-align: center;
+	border:groove #d18e23 5px;
+	height: 370px;
+
+} 
+#comb4{
+	position: absolute;
+	top: 700px;
+	left: 250px;
+	color: black;
+	text-align: center;
+	border:groove #d18e23 5px;
+	height: 370px;
+
+}
+#comb5{
+	position: absolute;
+	top: 700px;
+	left: 550px;
+	color: black;
+	text-align: center;
+	border:groove #d18e23 5px;
+	height: 370px;
+
+}
+#comb6{
+	position: absolute;
+	top: 700px;
+	left: 850px;
+	color:black;
+	text-align: center;
+	border:groove #d18e23 5px;
+	height: 370px;
+
+}
+
+#comb7{
+	position: absolute;
+	top: 1100px;
+	left: 250px;
+	color: black;
+	text-align: center;
+	border:groove #d18e23 5px;
+	height: 370px;
+
+}
+#colherdados{
+	position: relative;
+	top: 200px;
+	width: 160px;
+}
+/*------------------------------- slide estilização -----------------------*/
+
+ #slide ul  {
+
+	width: 1000px;
+	height: 900px;
+	
+	margin: 0 auto;	
+	overflow: hidden;dden;
+	position: absolute;
+	right: 30px;
+	top: 250px;
+
+
+}
+/*imagens do slide */
+#um{
+	height: 410px;
+	width: 2000px;
+}
+#dois{
+	height: 410px;
+	width: 2000px;
+}
+#tres{
+	height: 410px;
+	width: 2000px;
+}
+#quatro{
+	height: 410px;
+	width: 2000px;
+}
+#cinco{
+	height: 410px;
+	width: 2000px;
+} 
+
+/* barra de formatação de porçoes*/
+
+#porcoes{
+	position: absolute;
+	top: 300px;
+	left: 200px;
+	color: white;
+	text-align: center;
+	border:groove #d18e23 5px;
+	height: 320px;
+
+} 
+.frapor{
+	background-color: rgb(220,214,129);
+	width: 170px;
+	border-radius: 20px;
+	position: relative;
+	left: 50px;
+	color: black;	
+}
+
+
+/*-------------------------------------------------------------------*/
+
+.hs{
+	position: relative;
+	top: 180px;
+	color: white;
+	font-size: 25px;
+	right: -10px;
+}
+
+#IMGS{
+	width: 1800px;
+	height: 1300px;
+	z-index: 1;
+}
+
+#slide ul{
+	width: 2800px;
+	height: 1300px;
+	z-index: -1;
+	margin-top: -300px;
+	margin-right: -1500px;
+}
+/*lanches formatação*/
+
+#fra{
+	background-color: rgb(254,231,186);
+	width: 120px;
+	position: relative;
+	left: 22px;
+	border-radius: 20px;
+}
+
+#lanc1{
+	border:solid black;
+	position: absolute;
+	top: 350px;
+	left: 250px;
+	text-align:center;
+	background-color: rgb(221,218,248);
+}
+#lanc2{
+	border:solid black;
+	position: absolute;
+	top: 350px;
+	left: 550px;
+	text-align:center;
+	background-color: rgb(221,218,248);
+}
+#lanc3{
+	border:solid black;
+	position: absolute;
+	top: 350px;
+	left: 850px;
+	text-align:center;
+	background-color: rgb(221,218,248);
+}
+#lanc4{
+	border:solid black;
+	position: absolute;
+	top: 750px;
+	left: 250px;
+	text-align:center;
+	background-color: rgb(221,218,248);
+}
+#lanc5{
+	border:solid black;
+	position: absolute;
+	top: 750px;
+	left: 550px;
+	text-align:center;
+	background-color: rgb(221,218,248);
+}
+#lanc6{
+	border:solid black;
+	position: absolute;
+	top: 750px;
+	left: 850px;
+	text-align:center;
+	background-color: rgb(221,218,248);
+}
+#lanc7{
+	border:solid black;
+	position: absolute;
+	top: 1150px;
+	left: 250px;
+	text-align:center;
+	background-color: rgb(221,218,248);
+}
+
+/*bebidas formatação*/
+
+body{
+	background-image: url('../IMG/HUM3.jpg');
+	background-repeat: no-repeat;
+	background-size: 2200px;
+}
+
+#bebi1{
+	position: absolute;
+	top: 350px;
+	left:550px;
+	border: solid white;
+	height: 370px;
+	color: white;
+	text-align: center;
+	border:solid black;
+
+}
+#IMGB1{
+	height: 200px;
+	width:200px;
+}
+
+
+ 
